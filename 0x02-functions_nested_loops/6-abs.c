@@ -2,15 +2,15 @@
 
 /**
  * _abs - calculate absolute value of input
- * @n: input to be checked
+ * @num: input to be checked
  * Return: absolute value of input
  */
 
-int _abs(int)
+int _abs(int num )
 {
-	if (n >= 0)
+	if (num >= 0)
 	{
-		return (n);
+		return (num);
 	}
-	return (-n);
+	return (-num);
 }
